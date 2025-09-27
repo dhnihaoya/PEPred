@@ -68,6 +68,28 @@ python final_model_cli.py features --output features.csv
 python final_model_cli.py predict --input data/input.csv --output results.csv --threshold 0.5
 ```
 
+## Example Data
+
+The project includes example data in the `example/` directory:
+
+- `example/example.csv`: A sample dataset with 20 randomly selected rows from the full dataset
+- This file can be used to test the CLI tool and understand the expected data format
+
+### Using the Example Data
+
+```bash
+# Test prediction with example data
+python final_model_cli.py predict --input example/example.csv --output example_predictions.csv
+
+# View model info
+python final_model_cli.py info
+
+# Export expected features
+python final_model_cli.py features --output features.csv
+```
+
+The example data contains all the required feature columns needed for model prediction.
+
 ## Troubleshooting
 
 - Model file not found: Check `--model` path
