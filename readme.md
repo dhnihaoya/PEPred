@@ -1,4 +1,4 @@
-# Final Model CLI Tool
+# CLI Tool of PEPred
 
 A command-line tool for the final logistic regression model for batch prediction and model inspection.
 
