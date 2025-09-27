@@ -80,12 +80,6 @@ The project includes example data in the `example/` directory:
 ```bash
 # Test prediction with example data
 python final_model_cli.py predict --input example/example.csv --output example_predictions.csv
-
-# View model info
-python final_model_cli.py info
-
-# Export expected features
-python final_model_cli.py features --output features.csv
 ```
 
 The example data contains all the required feature columns needed for model prediction.
